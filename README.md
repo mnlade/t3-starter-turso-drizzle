@@ -10,11 +10,30 @@ If you are not familiar with the different technologies used in this project, pl
 
 - [Next.js](https://nextjs.org)
 - [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
 - [Drizzle](https://orm.drizzle.team)
 - [Tailwind CSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io)
 
+## Run in Local
+Install dependencies using pnpm
+```
+pnpm install
+```
+
+Copy the .env.example to .env and update the variables.
+```
+cp .env.example .env
+```
+
+Push the database schema
+```
+pnpm run db:push
+```
+
+Start the development server
+```
+pnpm run dev
+```
 ## Learn More
 
 To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
