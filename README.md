@@ -25,15 +25,17 @@ Copy the .env.example to .env and update the variables.
 cp .env.example .env
 ```
 
+Start the development server
+```
+pnpm run dev
+```
+
 Push the database schema
 ```
 pnpm run db:push
 ```
 
-Start the development server
-```
-pnpm run dev
-```
+
 ## Learn More
 
 To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
